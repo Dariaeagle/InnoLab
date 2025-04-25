@@ -80,5 +80,5 @@ It enables users to explore temporal patterns of **NDSI**, **NDVI**, **NDWI**, a
 ## 📈 Further Visualization
 
 Use the **`csv_processing.py`** script (included in this repository) for plotting time series and heatmaps from the exported CSVs.
-
+Also there's a folder with ready csv files to try it directly in python script
 ---
