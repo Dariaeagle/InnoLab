@@ -13,7 +13,7 @@ It enables users to explore temporal patterns of **NDSI**, **NDVI**, **NDWI**, a
 
 ## Features
 
-### 📌 ROI Selection
+### ROI Selection
 - Draw your own AOI directly on the map.
 - Select glaciers from pre-loaded shapefiles:
   - Iceland  
@@ -23,7 +23,7 @@ It enables users to explore temporal patterns of **NDSI**, **NDVI**, **NDWI**, a
 
 ---
 
-### 🗻 DEM Integration
+### DEM Integration
 - Automatically checks DEM coverage and clips to ROI.
 - Supported DEMs:
   - **SRTM**
@@ -32,7 +32,7 @@ It enables users to explore temporal patterns of **NDSI**, **NDVI**, **NDWI**, a
 
 ---
 
-### 🌤️ Optical Data Filtering
+### Optical Data Filtering
 - Supports datasets: **Landsat 5/7/8/9**, **Sentinel-2**, and **MODIS**
 - Applies:
   - Cloud and snow masking
@@ -44,13 +44,13 @@ It enables users to explore temporal patterns of **NDSI**, **NDVI**, **NDWI**, a
 
 ---
 
-### 📆 Weekly Aggregation
+### Weekly Aggregation
 - Weekly composite generation (median).
 - Calculates mean index values **per elevation bin** (e.g., every 50 meters).
 
 ---
 
-### 📡 Sentinel-1 Radar Analysis
+### Sentinel-1 Radar Analysis
 - Full preprocessing pipeline:
   - Border noise correction
   - Terrain flattening
@@ -58,19 +58,19 @@ It enables users to explore temporal patterns of **NDSI**, **NDVI**, **NDWI**, a
 - Computes:
   - Mean backscatter per elevation bin and per date
 - Supports:
-  - **VH / VV** polarizations  
+  - **VH / VV /VVVH** polarizations  
   - Orbit mode and relative orbit filtering
 
 ---
 
-### 🧭 Aspect and Slope Masking (Optional)
+### Aspect and Slope Masking (Optional)
 - Filter DEM using slope and aspect:
   - Example: north-facing slopes with slope ≥ 5°
 - Use masked DEM for focused analysis
 
 ---
 
-### 📤 Export Results
+### Export Results
 - Export all results to **CSV**:
   - Elevation-bin statistics for each week
   - Ready for further processing (e.g., in Python)
